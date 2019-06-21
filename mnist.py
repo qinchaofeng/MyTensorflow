@@ -12,12 +12,12 @@ cols = 28
 images_to_extract = 8000
 
 # 当前路径下的保存目录
-save_dir = "E:\mnist_digits_images"
+save_dir = "./mnist_images"
 
 # 读入mnist数据
-print("start…1…")
-mnist = input_data.read_data_sets("E:\mnist", one_hot=False)
-print("start…2…")
+print("start…1…")  #调试1
+mnist = input_data.read_data_sets("./mnist", one_hot=False)
+print("start…2…")  #调试2
 # 创建会话
 sess = tf.Session()
 
