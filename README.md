@@ -3,4 +3,4 @@
 
 MNIST数据集的官网是Yann LeCun's website（http://yann.lecun.com/exdb/mnist/ ）
 
-解析后的图片在mnist_digits_images
+解析后的图片在mnist_images 
