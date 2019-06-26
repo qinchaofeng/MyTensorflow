@@ -7,3 +7,7 @@
 MNIST数据集的官网是Yann LeCun's website（http://yann.lecun.com/exdb/mnist/ ）
 
 解析后的图片在mnist_images 
+
+### 2、针对转换的1-10的手写图片进行训练
+
+mnist_training.py实现了对手写图片进行训练打标
